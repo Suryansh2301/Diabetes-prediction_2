@@ -87,7 +87,3 @@ ranges (age 0.08–80, BMI 10–95, HbA1c 3.5–9.0, glucose 80–300) and (b) s
 * The model in the app outputs a **risk score**, not a calibrated probability (class weighting inflates scores).
 * The XGBoost model from `02_Model_Training.ipynb` was not re-run in the imbalance study; HistGradientBoosting (same algorithm family) was used.
 * Dataset provenance is not documented; validate on independent clinical data before any real-world use.
-
-## Authors
-
-Rohan Ranjan · Suryansh Kumar Pathak — B.Tech Computer Science & Engineering
