@@ -1,0 +1,17 @@
+{
+  "selected": [
+    "HistGradientBoosting",
+    "class_weight"
+  ],
+  "thresholds": {
+    "default_0.5": 0.5,
+    "balanced (max balanced-accuracy)": 0.45591,
+    "f1-optimal": 0.83327,
+    "screening (recall>=90%)": 0.54709
+  },
+  "test_threshold_free": {
+    "roc_auc": 0.9777152637140564,
+    "pr_auc": 0.8835321508125503,
+    "brier": 0.06133851026325907
+  }
+}
